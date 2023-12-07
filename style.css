@@ -1,4 +1,4 @@
-body{
+*{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -25,6 +25,7 @@ nav{
     align-items: center;
     width: 1080px;
     margin: 0 auto;
+    padding-top: 40px;
 }
 
 nav ul{
@@ -51,6 +52,10 @@ nav ul li{
     font-size: larger;
 }
 
+.caption p{
+    padding: 30px 0;
+}
+
 .caption button{
     background-color:#3882f6 ;
     border: 0;
@@ -69,7 +74,6 @@ nav ul li{
     text-align: center;
     font-weight: bolder;
     padding: 100px 0 30px 0;
-    margin: 0;
     color: #1f2937;
 }
 
@@ -84,7 +88,7 @@ nav ul li{
 
 .info .container div{
     padding: 20px;
-    width: 150px;
+    width: 200px;
     font-weight: lighter;
 }
 
@@ -92,4 +96,53 @@ nav ul li{
     width: 100%;
     border: #3882f6 solid 5px;
     border-radius: 10px;
+}
+
+.quote{
+    background-color: #e5e7eb;
+    width: 100vw;
+}
+
+.holder{
+    box-sizing: border-box;
+    padding: 100px;
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    width: 1080px;
+    margin: 0 auto;
+}
+
+
+.holder h5{
+    text-align: right;
+}
+
+.cta > div{
+    width: 1080px;
+    margin: 100px auto;
+    background-color: #3882f6;
+    border-radius: 20px;
+    padding: 40px;
+    display: flex;
+    color: #f9faf8;
+}
+
+.cta button{
+    margin-left: auto;
+    background-color:#3882f6 ;
+    border: 2px #f9faf8 solid;
+    border-radius: 8px;
+    padding: 10px 30px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+footer{
+    background-color: #1f2937;
+    color: #f9faf8;
+    text-align: center;
+    padding: 50px;
+    width: 100vw;
 }
